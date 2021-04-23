@@ -1,0 +1,6 @@
+This is the basic code without any filters or protection. 
+This code is prone to SQL injection attacks like the first one mentioned here: https://www.w3schools.com/sql/sql_injection.asp.
+
+This SQL injection works by adding unwanted SQL code through the user input. So for example when a user name is supposed to be 
+given as an input we instead give " 'Ashank ' OR 1 = 1 ". Then the Where clause is basically useless since it will always return
+all the rows of a table .
