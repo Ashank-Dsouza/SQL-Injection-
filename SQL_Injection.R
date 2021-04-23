@@ -14,7 +14,7 @@ print(name)
 
 Select_command <- "select * from Information Where Name = "
   
-if(grep("[:alnum:]s", name)){
+if(grep("[:alnum:]", name)){
   
     txtSql  <- paste(Select_command, name, sep ="")
     
