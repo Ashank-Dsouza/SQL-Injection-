@@ -1,0 +1,2 @@
+This script attempts input validation through checking the input is only alphabets but this fails due to a misunderstanding of
+R pattern matching .
