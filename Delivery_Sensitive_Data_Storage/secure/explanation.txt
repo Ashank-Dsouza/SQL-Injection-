@@ -1,0 +1,5 @@
+This is the secure version which has the correct solution.
+
+In this solution we employ the technique of input validation to filter out the dubious inputs which may contain an SQL Injection. 
+
+In this particular code we do this by making a regular expression match with letters. Since a name can only contain letters we match for letters only. If it fails we do not run the code at all.
